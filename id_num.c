@@ -12,7 +12,7 @@ void convert(char* id15, char* id18){
 	for (i = 0; i < 17; i++)
 		k += (id18[i] - '0')*power[i];
 	k = (12 - k % 11) % 11;
-	id18[17] = k == 10 ? 'x' : k + '0'
+	id18[17] = k == 10 ? 'x' : k + '0';
 	//if (k == 10)
 	//	id18[17] = 'X';
 	//else
